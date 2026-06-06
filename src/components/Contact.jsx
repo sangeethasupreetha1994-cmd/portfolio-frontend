@@ -194,7 +194,7 @@ function Contact() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/linkedin.com/in/sangeetha-a-6a7876393"
+                  href="https://linkedin.com/in/sangeetha-a-6a7876393"
                   target="_blank"
                   rel="noreferrer"
                   className="text-blue-600 hover:scale-125 transition"
