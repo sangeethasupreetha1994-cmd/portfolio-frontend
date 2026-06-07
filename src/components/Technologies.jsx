@@ -11,12 +11,16 @@ import {
   FaGitAlt,
   FaGithub,
   FaServer,
+  FaCode,
+  FaLock,
 } from "react-icons/fa";
 
 import {
   SiMongodb,
   SiExpress,
   SiPostman,
+  SiTailwindcss,
+  
   SiVercel,
   SiNetlify,
 } from "react-icons/si";
@@ -31,6 +35,7 @@ function Technologies() {
     { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
     { name: "React", icon: <FaReact className="text-cyan-500" /> },
     { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" /> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-500" /> },
   ];
 
   const backend = [
@@ -38,7 +43,8 @@ function Technologies() {
     { name: "Express.js", icon: <SiExpress className="text-gray-500" /> },
     { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
     { name: "JWT Auth", icon: <RiShieldKeyholeLine className="text-red-500" /> },
-    { name: "bcrypt", icon: <FaServer className="text-indigo-500" /> },
+    { name: "bcrypt", icon: <FaLock className="text-indigo-500" /> },
+     { name: "API Development", icon: <FaCode className="text-cyan-500" /> },
   ];
 
   const tools = [
@@ -46,6 +52,7 @@ function Technologies() {
     { name: "VS Code", icon: <VscVscode className="text-blue-500" /> },
     { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
     { name: "GitHub", icon: <FaGithub className="text-black dark:text-white" /> },
+     { name: "Apidog", icon: <FaServer className="text-green-500" /> },
   ];
 
   const deployment = [
@@ -106,7 +113,7 @@ function Technologies() {
 
         {/* Heading */}
         <h2 className="text-5xl font-bold text-center mb-16 text-gray-900 dark:text-white">
-          Technologies
+          Technical Skills
         </h2>
 
         <div className="grid md:grid-cols-2 gap-16 items-start">

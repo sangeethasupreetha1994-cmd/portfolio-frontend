@@ -187,17 +187,19 @@ function Contact() {
                 <a
                   href="https://wa.me/919361592859"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="text-green-500 hover:scale-125 transition"
                 >
                   <FaWhatsapp />
                 </a>
 
+                {/* LINKEDIN */}
                 <a
                   href="https://linkedin.com/in/sangeetha-a-6a7876393"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="text-blue-600 hover:scale-125 transition"
+                  aria-label="LinkedIn Profile"
                 >
                   <FaLinkedin />
                 </a>
